@@ -26,4 +26,9 @@ public class PlayerMovement : MonoBehaviour
     {
         rigidB.AddForce(direction * force * Time.deltaTime);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("player hit a wall");
+    }
 }
