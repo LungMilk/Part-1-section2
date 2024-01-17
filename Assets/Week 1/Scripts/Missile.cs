@@ -22,7 +22,7 @@ public class Missile : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Vector2 direction = new Vector2(speed + Time.deltaTime, 0);
+        Vector2 direction = new Vector2(speed * Time.deltaTime, 0);
         rigidbody.MovePosition(rigidbody.position + direction);
     }
     private void OnCollisionEnter2D(Collision2D collision)
