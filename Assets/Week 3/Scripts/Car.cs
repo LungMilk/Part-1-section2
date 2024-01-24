@@ -34,5 +34,6 @@ public class Car : MonoBehaviour
             rigidBody.AddForce(force);
             
         }
+        
     }
 }
