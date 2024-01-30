@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoosterArrow : MonoBehaviour
 {
     public SpriteRenderer spriteR;
+
     // Start is called before the first frame update
     void Start()
     {
