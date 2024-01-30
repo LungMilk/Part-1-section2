@@ -20,8 +20,8 @@ public class Spawner : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Instantiate(pin, spawnPoint);
-        Debug.Log("ouch");
+        Instantiate(pin, spawnPoint);
+        Debug.Log("Pin Spawned");
         
     }
 }
