@@ -17,11 +17,11 @@ public class BoosterArrow : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         spriteR.color = Color.red;
     }
-    private void OnTriggerExit2D(Collider other)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         spriteR.color = Color.yellow;
     }
