@@ -23,4 +23,8 @@ public class Pin : MonoBehaviour
     {
         spriteR.sprite = knockedPin;
     }
+    public void DeletePin()
+    {
+        Destroy(gameObject);
+    }
 }
